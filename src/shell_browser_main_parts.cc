@@ -245,7 +245,7 @@ bool ShellBrowserMainParts::ProcessSingletonNotificationCallback(
   static const char* const kSwitchNames[] = {
     switches::kNoSandbox,
     switches::kProcessPerTab,
-    switches::kEnableExperimentalWebPlatformFeatures,
+    // switches::kEnableExperimentalWebPlatformFeatures,
     //    switches::kEnableCssShaders,
     switches::kAllowFileAccessFromFiles,
   };
